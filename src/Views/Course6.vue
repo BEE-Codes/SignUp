@@ -6,7 +6,9 @@
             <button class="bg-[#3380DC] py-[11px] px-[13px] rounded-[4px] font-[600] text-[13px] leading-[16.9px] text-white"> Learning Mode</button> 
             <button class="bg-[#3380DC] py-[11px] px-[13px] rounded-[4px] font-[600] text-[13px] leading-[16.9px] text-white"> Payment Plan</button> 
             <button class="bg-[#3380DC] py-[11px] px-[13px] border-[#696671] rounded-[4px] font-[600] text-[13px] leading-[16.9px] text-white">Learning Info</button> 
-            <button class="bg-linear-65 from-[#FF7D05] to-[#F2B006] py-[11px] px-[13px] bborder-[#696671] rounded-[4px] font-[600] text-[13px] leading-[16.9px] text-white">Summary</button>     
+            <router-link to="successful">
+                <button class="bg-linear-65 from-[#FF7D05] to-[#F2B006] py-[11px] px-[13px] bborder-[#696671] rounded-[4px] font-[600] text-[13px] leading-[16.9px] text-white">Summary</button>     
+            </router-link>
         </div>
         <div class="w-[70%] bg-white relative top-[138px] left-[213px] rounded-[10px]">
             <h5 class="text-[18px] text-[#01060E] font-[400] leading-[37.5px] text-center pt-7 mb-15">Summary</h5>

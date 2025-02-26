@@ -1,10 +1,12 @@
-<script setup>
-
-</script>
-
 <template>
     <Router-view> </Router-view>
 </template>
+
+<script>
+    export default {
+        name:'Home',
+    }
+</script>
 
 <style scoped>
 

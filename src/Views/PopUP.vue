@@ -46,7 +46,7 @@
 
 <script>
 export default{
-  name:'PopUp'
+  // name:'PopUp'
 }
 // import { ref } from "vue";
 // import Modal from "./components/Modal.vue";

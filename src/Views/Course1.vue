@@ -2,7 +2,9 @@
 <template>
     <div class="bg-[#F0F2F5] pb-[200px] font-Maven">
         <div class=" w-[55%] relative top-[67px] left-[320px] flex justify-between">
+           <router-link to="course2">
             <button class="bg-linear-65 from-[#FF7D05] to-[#F2B006] py-[11px] px-[13px] rounded-[4px] font-[600] text-[13px] leading-[16.9px] text-white">Select Course</button>
+           </router-link>
             <button class="py-[11px] px-[13px] border border-[#696671] rounded-[4px] font-[600] text-[13px] leading-[16.9px] text-[#696671]"> Customize Selection</button> 
             <button class="py-[11px] px-[13px] border border-[#696671] rounded-[4px] font-[600] text-[13px] leading-[16.9px] text-[#696671]"> Learning Mode</button> 
             <button class="py-[11px] px-[13px] border border-[#696671] rounded-[4px] font-[600] text-[13px] leading-[16.9px] text-[#696671]"> Payment Plan</button> 
@@ -106,7 +108,7 @@
 
 <script >
     export default {
-        name: 'Course1',
+        // name: 'course1',
     };
     // {
     //     name: "CustomScrollbar"
