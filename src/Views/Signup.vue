@@ -1,7 +1,7 @@
 <template>
     <div class="w-full bg-white text-white flex">
         <div class="w-[51%]">
-            <div class="bg-[url('../public/images/cover.png')] w-[96%] ml-[26px] my-[16px] rounded-lg bg-cover bg-center h-[976px]">
+            <div class="bg-[url('/images/cover.png')] w-[96%] ml-[26px] my-[16px] rounded-lg bg-cover bg-center h-[976px]">
                 <div class="w-[30%] relative top-[236px] left-[276px]">
                 <img src="/images/coloredtransparent2.svg">
                 </div>
