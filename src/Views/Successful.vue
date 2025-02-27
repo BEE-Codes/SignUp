@@ -1,11 +1,11 @@
 <template>
-    <div class="w-full h-full bg-[#F0F2F5]">
-        <div class="bg-white w-[47%] rounded-[19px] relative top-[208px] left-[376px] pb-[50px] border">
-            <div class="w-[151.66px] h-[151.66px] rounded-full bg-[#13C39C] my-[50px] mx-auto flex item-center justify-center">
+    <div class="w-full bg-[#F0F2F5] pb-[100px]">
+        <div class="bg-white w-[47%] rounded-[19px] relative top-[50px] pt-6 mx-auto pb-[50px]">
+            <div class="w-[151.66px] h-[151.66px] rounded-full bg-[#13C39C] mb-[50px] mx-auto flex item-center justify-center">
                 <img src="../assets/tick.svg" alt="" class="w-[77.61px]">
             </div>
 
-            <h5 class="text-[20px] font-[700] text-[#7D7D7D] leading-[25.2px] text-center">
+            <h5 class="text-[20px] font-[700] text-[#7D7D7D] leading-[25.2px] text-center font-Jakarta">
                 Signed up and Paid Successfully
             </h5>
             <div class="flex w-[28%] mx-auto mt-[50px] items-center justify-around">

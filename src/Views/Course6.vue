@@ -1,16 +1,14 @@
 <template>
-    <div class="w-full bg-[#F0F2F5] pb-[200px]">
-        <div class=" w-[55%] relative top-[67px] left-[320px] flex justify-between mb-10">
+    <div class="w-full bg-[#F0F2F5] pb-[100px]">
+        <div class="w-[55%] relative top-[60px] mx-auto flex justify-between font-MavenPro">
             <button class="bg-[#3380DC] py-[11px] px-[13px] rounded-[4px] font-[600] text-[13px] leading-[16.9px] text-white">Select Course</button>
             <button class="bg-[#3380DC] py-[11px] px-[13px] rounded-[4px] font-[600] text-[13px] leading-[16.9px] text-white"> Customize Selection</button> 
             <button class="bg-[#3380DC] py-[11px] px-[13px] rounded-[4px] font-[600] text-[13px] leading-[16.9px] text-white"> Learning Mode</button> 
             <button class="bg-[#3380DC] py-[11px] px-[13px] rounded-[4px] font-[600] text-[13px] leading-[16.9px] text-white"> Payment Plan</button> 
             <button class="bg-[#3380DC] py-[11px] px-[13px] border-[#696671] rounded-[4px] font-[600] text-[13px] leading-[16.9px] text-white">Learning Info</button> 
-            <router-link to="successful">
-                <button class="bg-linear-65 from-[#FF7D05] to-[#F2B006] py-[11px] px-[13px] bborder-[#696671] rounded-[4px] font-[600] text-[13px] leading-[16.9px] text-white">Summary</button>     
-            </router-link>
+            <button class="bg-linear-65 from-[#FF7D05] to-[#F2B006] py-[11px] px-[13px] bborder-[#696671] rounded-[4px] font-[600] text-[13px] leading-[16.9px] text-white">Summary</button>     
         </div>
-        <div class="w-[70%] bg-white relative top-[138px] left-[213px] rounded-[10px]">
+        <div class="w-[70%] bg-white mt-[100px] mx-auto rounded-[10px]">
             <h5 class="text-[18px] text-[#01060E] font-[400] leading-[37.5px] text-center pt-7 mb-15">Summary</h5>
             <div class="w-[87%] border border-[#00000033] py-[13px] px-[24px] rounded-[9px] mx-auto mb-5 ">
                 <div class="flex w-[29%] items-center justify-between">
@@ -26,7 +24,7 @@
                             <th>Details</th>
                             <th>Details</th>
                         </tr>
-                        <tr class="text-left text-[14px] text-[#2D2D30] leading-[18px] font-[400]">
+                        <tr class="text-left text-[14px] text-[#2D2D30] leading-[18px] font-[400] ">
                             <td>Placeholder</td>
                             <td>24/2/2003</td>
                             <td>Placeholder</td>
@@ -76,8 +74,12 @@
                 </div>
             </div>
             <div class="w-full border-t border-[#0000001C] px-10 py-3 flex justify-between  bg-white mt-20">
-                <button class="px-[58px] py-[14px] bg-[#F0F2F5] shadow-lg shadow-[#058DB814] rounded-[8px] text-[16px] font-[400] leading-[24px] text-[#3380DC] border border-[#3380DC]">Back</button>
-                <button class="px-[58px] py-[14px] bg-[#3380DC] shadow-lg shadow-[#058DB814] rounded-[8px] text-[16px] font-[400] leading-[24px] text-white">Proceed To Payment</button>
+                <router-link to="course4">
+                    <button class="px-[58px] py-[14px] bg-[#F0F2F5] shadow-lg shadow-[#058DB814] rounded-[8px] text-[16px] font-[400] leading-[24px] text-[#3380DC] border border-[#3380DC]">Back</button>
+                </router-link>
+                <router-link to="successful">
+                    <button class="px-[58px] py-[14px] bg-[#3380DC] shadow-lg shadow-[#058DB814] rounded-[8px] text-[16px] font-[400] leading-[24px] text-white">Proceed To Payment</button>
+                </router-link>    
             </div>
         </div>
     </div>
