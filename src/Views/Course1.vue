@@ -9,7 +9,7 @@
             <button class="py-[11px] px-[13px] border border-[#696671] rounded-[4px] font-[600] text-[13px] leading-[16.9px] text-[#696671]">Summary</button>     
         </div>
         <div class="w-[73%] bg-white mt-[100px] mx-auto rounded-lg h-[600px] flex flex-col font-MavenPro">
-            <div class="flex ">
+            <div class="flex">
                 <div class="ml-[205px] mt-[34px]">
                     <h2 class="text-center text-[18px] font-[400] leading-[37.5px] text-[#01060E]">Course selection</h2>
                     <h6 class="text-center text-[16px] font-[500] leading-[20.8px] text-[#696671] mt-[10px]">Select a course or courses you would be interested in learning here at techroom</h6>

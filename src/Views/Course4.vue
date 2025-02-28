@@ -46,7 +46,7 @@
                 <router-link to="course3">
                     <button class="px-[58px] py-[14px] bg-[#F0F2F5] shadow-lg shadow-[#058DB814] rounded-[8px] text-[16px] font-[400] leading-[24px] text-[#3380DC] border border-[#3380DC]">Back</button>
                 </router-link>
-                <router-link to="course6">
+                <router-link to="course5">
                     <button class="px-[58px] py-[14px] bg-[#3380DC] shadow-lg shadow-[#058DB814] rounded-[8px] text-[16px] font-[400] leading-[24px] text-white">Next</button>
                 </router-link>
             </div>

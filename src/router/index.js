@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from '../Views/Signup.vue';
 import Course1 from '../Views/Course1.vue';
 import Course2 from '../Views/course2.vue';
-import PopUp from '../Views/PopUP.vue';
+// import PopUp from '../Views/PopUP.vue';
 import Course3 from '../Views/Course3.vue';
 import Course4 from '../Views/Course4.vue';
 import Course5 from '../Views/Course5.vue';
@@ -24,10 +24,10 @@ const routes = [
       path: "/course2",
       component: Course2
     },
-    {
-      path: "/popup",
-      component:PopUp
-    },
+    // {
+    //   path: "/popup",
+    //   component:PopUp
+    // },
     {
       path: "/course3",
       component:Course3

@@ -6,7 +6,7 @@
             <button class="bg-[#3380DC] py-[11px] px-[13px] rounded-[4px] font-[600] text-[13px] leading-[16.9px] text-white"> Learning Mode</button> 
             <button class="bg-[#3380DC] py-[11px] px-[13px] rounded-[4px] font-[600] text-[13px] leading-[16.9px] text-white"> Payment Plan</button> 
             <button class="bg-[#3380DC] py-[11px] px-[13px] border-[#696671] rounded-[4px] font-[600] text-[13px] leading-[16.9px] text-white">Learning Info</button> 
-            <button class="bg-linear-65 from-[#FF7D05] to-[#F2B006] py-[11px] px-[13px] bborder-[#696671] rounded-[4px] font-[600] text-[13px] leading-[16.9px] text-white">Summary</button>     
+            <button class="bg-linear-65 from-[#FF7D05] to-[#F2B006] py-[11px] px-[13px] rounded-[4px] font-[600] text-[13px] leading-[16.9px] text-white">Summary</button>     
         </div>
         <div class="w-[70%] bg-white mt-[100px] mx-auto rounded-[10px]">
             <h5 class="text-[18px] text-[#01060E] font-[400] leading-[37.5px] text-center pt-7 mb-15">Summary</h5>
@@ -74,7 +74,7 @@
                 </div>
             </div>
             <div class="w-full border-t border-[#0000001C] px-10 py-3 flex justify-between  bg-white mt-20">
-                <router-link to="course4">
+                <router-link to="course5">
                     <button class="px-[58px] py-[14px] bg-[#F0F2F5] shadow-lg shadow-[#058DB814] rounded-[8px] text-[16px] font-[400] leading-[24px] text-[#3380DC] border border-[#3380DC]">Back</button>
                 </router-link>
                 <router-link to="successful">

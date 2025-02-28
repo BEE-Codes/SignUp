@@ -23,10 +23,9 @@
             <p class="font-[500] text-[#696671] text-[16px] leading-[20.8px]">Introduction to Web Development with HTML5</p>
             <div class="flex w-[15%] justify-between">
               <p class="font-[500] text-[#01060E9C] text-[20px] leading-[23.5px]">2 Weeks</p>
-              <img src="../assets/Vector.svg" alt="" class="w-[20px]">
+              <img src="../assets/Vector.svg" alt="" class="w-[20px]" @click="showPopUp = true">
             </div>
           </div>
-
 
           <div class="w-[91%] border-b border-[#0000001A] mx-auto flex justify-between py-[15px] px-[14px] mb-5">
             <p class="font-[500] text-[#696671] text-[16px] leading-[20.8px]">CSS3</p>
@@ -84,13 +83,33 @@
         </router-link>
       </div>
     </div>
+  <PopUp :isVisible="showPopUp" @close="showPopUp = false" />
   </div>
 </template>
 
 <script >
-  export default{
-        // name: 'course2',
+import PopUp from "../Components/PopUP.vue";
+
+export default {
+  components: {
+    PopUp,
+  },
+  data() {
+    return {
+      showPopUp: false,
     };
+  },
+  // methods: {
+  //   openPopup() {
+  //     this.showPopUp = true;
+  //     document.body.classList.add("overflow-hidden"); // Prevent scrolling
+  //   },
+  //   closePopup() {
+  //     this.showPopUp = false;
+  //     document.body.classList.remove("overflow-hidden"); // Enable scrolling again
+  //   },
+  // },
+};
 
 </script>
 
