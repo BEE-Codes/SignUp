@@ -11,6 +11,7 @@
         <div class="w-[70%] bg-white mt-[100px] mx-auto rounded-[10px]">
             <h5 class="text-[18px] text-[#01060E] font-[400] leading-[37.5px] text-center pt-7">Summary</h5>
             <h6 class="text-[18px] text-[#696671] font-[500] leading-[20.8px] text-center pt-5 mb-10 font-MavenPro"> input your details below so you can Know You Better</h6>
+            
             <div class="w-[74%] mx-auto h-[600px] flex flex-col">
                 <div class="w-[32%]">
                     <p class="text-[16px] text-[#6E7191] leading-[24px] pt-2 mb-3">Passport</p>
@@ -24,7 +25,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="overflow-y-auto flex-grow mt-5 ">
+                <div class="overflow-y-auto flex-grow mt-10 ">
                     <div class="w-full flex justify-between mb-7">
                         <div class="w-[48%]">
                             <p class="text-[16px] text-[#6E7191] leading-[24px] pb-3">Name</p>
@@ -55,7 +56,7 @@
                             <input type="text" placeholder="placeholder" class="bg-gray-100 placeholder-[#101011] p-4 rounded-[8px] w-full  text-black">
                         </div>
                     </div>
-                    <div class="w-full flex justify-between">
+                    <div class="w-full flex justify-between mb-2">
                         <div class="w-[48%]">
                             <p class="text-[16px] text-[#6E7191] leading-[24px] pb-3">Gender</p>
                             <input type="text" placeholder="placeholder" class="bg-gray-100 placeholder-[#101011] p-4 rounded-[8px] w-full  text-black">
