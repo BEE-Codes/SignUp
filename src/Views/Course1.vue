@@ -22,7 +22,7 @@
             <div class="overflow-y-auto flex-grow ">
                 <div class="w-[89%] border rounded-[9px] border-[#00000033] flex mx-auto mt-[50px] px-2 py-5">
                     <div class="w-[8%] flex justify-center items-center">
-                        <input type="checkbox" class="appearance-none w-5 h-5 border border-[#FF7D05] rounded-full checked:bg-linear-65 from-[#FF7D05] to-[#F2B006]"/>
+                        <input type="radio" class="w-5 h-5 border border-[#FF7D05]"/>
                     </div>
                     <div class="w-[90%] flex justify-between ml-1">
                         <div class="">
@@ -35,7 +35,7 @@
             
                 <div class="w-[89%] border rounded-[9px] border-[#00000033] flex mx-auto mt-[30px] px-2 py-5">
                     <div class="w-[8%] flex justify-center items-center">
-                        <input type="checkbox" class="appearance-none w-5 h-5 border border-[#909090] rounded-full checked:bg-linear-65 from-[#FF7D05] to-[#F2B006]"/>
+                        <input type="radio" class=" w-5 h-5"/>
                     </div>
                     <div class="w-[90%] flex justify-between ml-1">
                         <div class="">
@@ -48,7 +48,7 @@
 
                 <div class="w-[89%] border rounded-[9px] border-[#00000033] flex mx-auto mt-[30px] px-2 py-5">
                     <div class="w-[8%] flex justify-center items-center">
-                        <input type="checkbox" class="appearance-none w-5 h-5 border border-[#909090] rounded-full checked:bg-linear-65 from-[#FF7D05] to-[#F2B006]"/>
+                        <input type="radio" class="w-5 h-5 border"/>
                     </div>
                     <div class="w-[90%] flex justify-between ml-1">
                         <div class="">
@@ -61,7 +61,7 @@
 
                 <div class="w-[89%] border rounded-[9px] border-[#00000033] flex mx-auto mt-[30px] px-2 py-5">
                     <div class="w-[8%] flex justify-center items-center">
-                        <input type="checkbox" class="appearance-none w-5 h-5 border border-[#909090] rounded-full checked:bg-linear-65 from-[#FF7D05] to-[#F2B006]"/>
+                        <input type="radio" class="w-5 h-5 border border-[#909090] "/>
                     </div>
                     <div class="w-[90%] flex justify-between ml-1">
                         <div class="">
@@ -75,7 +75,7 @@
 
                 <div class="w-[89%] border rounded-[9px] border-[#00000033] flex mx-auto mt-[30px] px-2 py-5">
                     <div class="w-[8%] flex justify-center items-center">
-                        <input type="checkbox" class="appearance-none w-5 h-5 border border-[#909090] rounded-full checked:bg-linear-65 from-[#FF7D05] to-[#F2B006]"/>
+                        <input type="radio" class="w-5 h-5 border border-[#909090] "/>
                     </div>
                     <div class="w-[90%] flex justify-between ml-1">
                         <div class="">
@@ -89,7 +89,7 @@
 
                 <div class="w-[89%] border rounded-[9px] border-[#00000033] flex mx-auto mt-[30px] px-2 py-5">
                     <div class="w-[8%] flex justify-center items-center">
-                        <input type="checkbox" class="appearance-none w-5 h-5 border border-[#909090] rounded-full checked:bg-linear-65 from-[#FF7D05] to-[#F2B006]"/>
+                        <input type="radio" class="w-5 h-5 border border-[#909090]"/>
                     </div>
                     <div class="w-[90%] flex justify-between ml-1">
                         <div class="">
@@ -98,8 +98,11 @@
                         </div>
                         <h5 class="text-[18px] font-[700] leading-[21.15px] text-[#3E8EFA]"> 6 Months </h5>
                     </div>
-                    
                 </div>
+                <!-- <div class="flex gap-4">
+                    <input type="radio" name="option" class="appearance-none w-6 h-6 border-2 border-gray-400 rounded-full checked:border-[#FF7D05] checked:bg-[#FF7D05]"/>
+                </div> -->
+
             </div>
             
             <div class="w-full border-t border-[#0000001C] px-10 py-3 flex justify-end bg-white">
@@ -134,19 +137,7 @@
 </script>
 
 <style scoped>
-    /*.scrollbar-custom::-webkit-scrollbar {
-    width: 8px;
-    }
-
-    .scrollbar-custom::-webkit-scrollbar-track {
-    background: #f1f1f1;
-    }
-
-    .scrollbar-custom::-webkit-scrollbar-thumb {
-    background-color: #888;
-    border-radius: 4px;
-    border: 2px solid #f1f1f1;
+    /*input {
+        accent-color:#FF7D05;
     }*/
-
-
 </style>
