@@ -1,6 +1,6 @@
 <template>
     <div class="w-full bg-[#F0F2F5] pb-[100px]">
-        <div class="bg-white w-[47%] rounded-[19px] relative top-[50px] pt-6 mx-auto pb-[50px]">
+        <div class="bg-white w-[47%] rounded-[19px] relative top-[50px] pt-6 mx-auto pb-[50px] font-eina">
             <div class="w-[151.66px] h-[151.66px] rounded-full bg-[#13C39C] mb-[50px] mx-auto flex item-center justify-center">
                 <img src="../assets/tick.svg" alt="" class="w-[77.61px]">
             </div>
@@ -17,8 +17,8 @@
                 <p  class="text-[14px] text-[#2D2D30] leading-[18px]">Placeholder</p>
             </div>
 
-            <div class="w-[42%] mx-auto mt-[50px]">
-                <button class="text-[16px] font-[400] text-white leading-[24.2px] text-center bg-[#3380DC] py-[14px] px-[28px] shadow shadow-[#058DB814] rounded-[8px]">
+            <div class="w-[43%] mx-auto mt-[50px]">
+                <button class="text-[16px] font-[400] text-white leading-[24.2px] text-center bg-[#3380DC] py-[14px] px-[28px] shadow shadow-[#058DB814] rounded-[8px] font-gilroy">
                     Login To Student Dashboard
                 </button>
             </div>

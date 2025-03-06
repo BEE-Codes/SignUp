@@ -1,12 +1,13 @@
 <template>  
   <teleport to='body'>
-    <div class="w-full bg-black bg-transparent border ">
-        <div class="w-[52%] h-[465px] fixed inset-0 top-[100px] rounded-[10px] bg-white mx-auto border"  v-if="isVisible">
+    <div class="paRent w-full" v-if="isVisible">
+
+      <div class="w-[52%] h-[465px] fixed inset-0 top-[100px] rounded-[10px] font-maven bg-white mx-auto" >
         <div class="flex justify-end p-2 w-full">
           <img src="../assets/x.svg" alt=""  @click="$emit('close')">
         </div>
-        <div class="w-[93%] mx-auto font-[500] text-[#696671] text-[14px] leading-[18.2px] font-MavenPro mb-5">
-          <h1 class="text-center font-[400] text-[#5E5E5E] text-[18px] leading-[37.5px]">Introduction To Web development</h1>
+        <div class="w-[93%] mx-auto font-[500] text-[#696671] text-[14px] leading-[18.2px] mb-5">
+          <h1 class="text-center font-[400] text-[#5E5E5E] text-[18px] leading-[37.5px] font-einaa">Introduction To Web development</h1>
           <p>
             Web development encompasses the entire process of creating a website, from its initial design to its functionality and visual style. 
             It's a collaborative effort, often involving designers, developers, and content creators. But at its core, web development relies on three fundamental building blocks: HTML, CSS, and JavaScript.
@@ -46,6 +47,15 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
+.paRent{
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left:0;
+  background:rgba(0,0,0,0.7);
+  
+
+}
 
 </style>

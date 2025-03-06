@@ -3,15 +3,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+@import url('https://db.onlinewebfonts.com/c/221e88a3e872fdb19cdf5d76e2c26055?family=Eina03-Regular');
+@import url('https://db.onlinewebfonts.com/c/2d57f676e3d6955778fb8acac0176b9a?family=Eina01-Bold');
 
 @import "tailwindcss";
 
 
 @theme {
-  --font-Roboto: roboto, 'sans-serif';
-  --font-Jakarta: jakarta, 'sans-serif';
-  --font-poppins: poppins, 'sans-serif';
-  --font-MavenPro: Maven,'sans-serif';
+  --font-roboto: 'Roboto', 'sans-serif';
+  --font-jakarta: 'Plus Jakarta Sans', 'sans-serif';
+  --font-poppins: 'Poppins', 'sans-serif';
+  --font-maven:'Maven Pro','sans-serif';
+  --font-gilroy: 'Gilroy-Bold', 'sans-serif';
+  --font-eina: 'Eina03-Regular','sans-serif';
+  --font-einaa: 'Eina01-Bold', 'sans-serif';
 }
 /* :root {
   --vt-c-white: #ffffff;
