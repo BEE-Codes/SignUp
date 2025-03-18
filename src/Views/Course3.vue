@@ -167,6 +167,9 @@ export default {
     #side-bar{
         display: none;
     }
+    #insider{
+        display: block;
+    }
     .hr-line{
         display: block;
         color: #0000001C;
@@ -230,6 +233,9 @@ export default {
     }
     #side-bar{
         display: none;
+    }
+    #insider{
+        display: block;
     }
     .hr-line{
         display: block;
@@ -295,6 +301,9 @@ export default {
     #side-bar{
         display: none;
     }
+    #insider{
+        display: block;
+    }
     .hr-line{
         display: block;
         color: #0000001C;
@@ -357,6 +366,9 @@ export default {
     }
     #side-bar{
         display: none;
+    }
+    #insider{
+        display: block;
     }
     .hr-line{
         display: block;
@@ -421,6 +433,9 @@ export default {
     }
     #side-bar{
         display:none;
+    }
+    #insider{
+        display: block;
     }
     .hr-line{
         display: block;
